@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuPrincipal : MonoBehaviour
+public class GameOverManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,13 +17,14 @@ public class MenuPrincipal : MonoBehaviour
         
     }
 
-    public void EscenaJuego()
+    public void IrMenuPrincipal()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MenuPrincipal");
     }
 
-    public void Salir()
+    public void ReiniciarPartida()
     {
-        Application.Quit();
+        SceneManager.LoadScene("GameScene");
     }
+
 }

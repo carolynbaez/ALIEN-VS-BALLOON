@@ -25,13 +25,12 @@ public class TimeControllerGame : MonoBehaviour
             TimeLeft += Time.deltaTime;
             if (TimeLeft < 1)
                 Time_on = true;
-            {
-                //Dar fin con Gameover y explotar nave
-            }
+           
             int MinTime = Mathf.FloorToInt(TimeLeft / 60);
             int SegTime = Mathf.FloorToInt(TimeLeft % 60);
 
             time_.text = string.Format("{00:00}:{01:00}", MinTime, SegTime);
         }
+
     }
 }
