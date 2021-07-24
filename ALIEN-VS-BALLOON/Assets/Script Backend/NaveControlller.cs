@@ -6,7 +6,7 @@ public class NaveControlller : MonoBehaviour
 {
     public float velocidad = 3.5f;
     // Start is called before the first frame update
-    private float velocidad_Cont = 2.5f;
+    //private float velocidad_Cont = 2.5f;
 
 
     //Mientras movimiento sea verdadero
