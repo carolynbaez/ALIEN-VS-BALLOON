@@ -18,6 +18,10 @@ public class DisparosController : MonoBehaviour
     void Update()
     {
         rb.velocity = new Vector2(+velocidad, 0);
-        Destroy(gameObject, 2.10f);
+        Destroy(gameObject, 3.0f);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+       Destroy(collision);
     }
 }
