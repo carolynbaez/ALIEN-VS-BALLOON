@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DisparosController : MonoBehaviour
 {
-   
     public float velocidad = -3.0f;
 
     Rigidbody2D rb;
@@ -19,10 +18,18 @@ public class DisparosController : MonoBehaviour
         rb.velocity = new Vector2(+velocidad, 0);
         Destroy(gameObject, 3.0f);
     }
+
     private void OnTriggerEnter2D(Collider2D objeto)
     {
         if (GloboTag.Contains(objeto.tag))
         {
+            if (objeto.tag == "verde")
+            {
+                HUDHelioLifeBar helioDisponible = GameObject.FindGameObjectWithTag("Player").GetComponent<HUDHelioLifeBar>();
+                helioDisponible.vidaActual += 10f;
+                Debug.Log("Vida actual = " + helioDisponible.vidaActual.ToString());
+            }
+
             ObjectDesttroy(objeto.tag, objeto.gameObject, gameObject);
         }
     }
@@ -32,8 +39,6 @@ public class DisparosController : MonoBehaviour
         Debug.Log($"el globo {txt} fue destruido ");
         Destroy(globo);
         Destroy(bala);
-
-
     }
 
 }
