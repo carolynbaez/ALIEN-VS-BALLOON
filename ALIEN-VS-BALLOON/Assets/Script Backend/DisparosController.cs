@@ -23,13 +23,21 @@ public class DisparosController : MonoBehaviour
     {
         if (GloboTag.Contains(objeto.tag))
         {
-            if (objeto.tag == "verde")
+            if (objeto.tag == "azul")
             {
                 HUDHelioLifeBar helioDisponible = GameObject.FindGameObjectWithTag("Player").GetComponent<HUDHelioLifeBar>();
                 helioDisponible.vidaActual += 10f;
-                Debug.Log("Vida actual = " + helioDisponible.vidaActual.ToString());
             }
-
+            else if (objeto.tag == "verde")
+            {
+                HUDHelioLifeBar helioDisponible = GameObject.FindGameObjectWithTag("Player").GetComponent<HUDHelioLifeBar>();
+                helioDisponible.vidaActual += 1f;
+            }
+            else if (objeto.tag == "rojo")
+            {
+                HUDHelioLifeBar helioDisponible = GameObject.FindGameObjectWithTag("Player").GetComponent<HUDHelioLifeBar>();
+                helioDisponible.vidaActual += 1f;
+            }
             ObjectDesttroy(objeto.tag, objeto.gameObject, gameObject);
         }
     }

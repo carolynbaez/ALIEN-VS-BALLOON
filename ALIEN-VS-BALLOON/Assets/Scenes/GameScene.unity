@@ -665,8 +665,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barraHelio: {fileID: 502261212}
-  vidaActual: 0
-  vidaMaxima: 100
+  vidaActual: 100
+  vidaMaxima: 500
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
