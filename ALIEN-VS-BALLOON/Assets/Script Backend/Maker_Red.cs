@@ -20,6 +20,10 @@ public class Maker_Red : MonoBehaviour
 
     public float max;
 
+    public float y;
+
+    public float z;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -91,7 +95,7 @@ public class Maker_Red : MonoBehaviour
         Vector3 SpawPosition; ;
 
         //SpawPosition = this.transform.position + Random.onUnitSphere * RangoCreacion;
-        SpawPosition = new Vector3(/*SpawPosition.x*/XRandom, 153.5f, -3220.257f);
+        SpawPosition = new Vector3(/*SpawPosition.x*/XRandom, y, z);
 
         Balloon = Instantiate(Balloons, SpawPosition, Quaternion.identity);
     }
