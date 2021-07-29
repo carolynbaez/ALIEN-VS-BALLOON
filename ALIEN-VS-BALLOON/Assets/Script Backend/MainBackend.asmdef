@@ -1,0 +1,15 @@
+{
+    "name": "MainBackend",
+    "references": [
+        "GUID:ee9b3489dbb50c54a863435455689ec7"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
