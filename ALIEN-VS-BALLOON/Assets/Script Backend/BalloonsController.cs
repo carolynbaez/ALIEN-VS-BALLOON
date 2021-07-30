@@ -32,7 +32,7 @@ public class BalloonsController : MonoBehaviour
         transform.position += transform.up * /*Start()*/Velo * Time.deltaTime;
         if (transform.position.y > 200)
         {
-            DestroyImmediate(Balloon,true);
+            DestroyImmediate(Balloon, true);
         }
         
     }
