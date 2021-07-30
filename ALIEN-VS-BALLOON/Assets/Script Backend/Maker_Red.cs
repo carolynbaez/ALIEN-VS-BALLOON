@@ -49,7 +49,7 @@ public class Maker_Red : MonoBehaviour
         //{
         //    Destroy(Balloon);
         //}
-
+        Destroy(gameObject, 3.0f);
     }
 
     public void Create_Red()
