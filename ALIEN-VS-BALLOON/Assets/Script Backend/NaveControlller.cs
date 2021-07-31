@@ -5,6 +5,7 @@ using UnityEngine;
 public class NaveControlller : MonoBehaviour
 {
     public float velocidad = 3.5f;
+    public ParticleSystem explosion;
     // Start is called before the first frame update
     //private float velocidad_Cont = 2.5f;
 
