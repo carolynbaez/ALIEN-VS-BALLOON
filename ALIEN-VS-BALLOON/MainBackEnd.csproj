@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>4.10.3.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.1.12f1</UnityVersion>
@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script Backend\BalloonClass.cs" />
     <Compile Include="Assets\Script Backend\Balloons_Green.cs" />
     <Compile Include="Assets\Script Backend\Balloons_Maker.cs" />
     <Compile Include="Assets\Script Backend\Balloons_Red.cs" />
@@ -280,19 +281,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/leuri/Documents/Itla Documents/Cuatrimestre 3/Programacion III/Proyecto video juego/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/CAROLYN/Desktop/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/leuri/Documents/Itla Documents/Cuatrimestre 3/Programacion III/Proyecto video juego/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/CAROLYN/Desktop/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/leuri/Documents/Itla Documents/Cuatrimestre 3/Programacion III/Proyecto video juego/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/CAROLYN/Desktop/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/leuri/Documents/Itla Documents/Cuatrimestre 3/Programacion III/Proyecto video juego/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/CAROLYN/Desktop/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/leuri/Documents/Itla Documents/Cuatrimestre 3/Programacion III/Proyecto video juego/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/CAROLYN/Desktop/ALIEN-VS-BALLOON/ALIEN-VS-BALLOON/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

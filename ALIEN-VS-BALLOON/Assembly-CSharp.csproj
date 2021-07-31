@@ -64,25 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script Backend\Balloons_Green.cs" />
-    <Compile Include="Assets\Script Backend\Balloons_Maker.cs" />
-    <Compile Include="Assets\Script Backend\Balloons_Red.cs" />
-    <Compile Include="Assets\Script Backend\BalloonsController.cs" />
-    <Compile Include="Assets\Script Backend\CamaraController.cs" />
-    <Compile Include="Assets\Script Backend\DisparosController.cs" />
-    <Compile Include="Assets\Script Backend\FondoController.cs" />
-    <Compile Include="Assets\Script Backend\Globo.cs" />
-    <Compile Include="Assets\Script Backend\GloboController.cs" />
-    <Compile Include="Assets\Script Backend\Lancer.cs" />
-    <Compile Include="Assets\Script Backend\Maker_Blue.cs" />
-    <Compile Include="Assets\Script Backend\Maker_Green.cs" />
-    <Compile Include="Assets\Script Backend\Maker_Red.cs" />
-    <Compile Include="Assets\Script Backend\NaveControlller.cs" />
-    <Compile Include="Assets\Scripts\GameOverManager.cs" />
-    <Compile Include="Assets\Scripts\HUDHelioLifeBar.cs" />
-    <Compile Include="Assets\Scripts\IrMenu.cs" />
-    <Compile Include="Assets\Scripts\MenuPrincipal.cs" />
-    <Compile Include="Assets\Scripts\TimeControllerGame.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -692,6 +673,16 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MainBackend.csproj">
+      <Project>{050473D1-917F-A13B-296E-3E5EA20AAFBD}</Project>
+      <Name>MainBackend</Name>
+    </ProjectReference>
+    <ProjectReference Include="MainFrontend.csproj">
+      <Project>{D58E5C46-BFD9-C9CC-FBCD-D19B40119096}</Project>
+      <Name>MainFrontend</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

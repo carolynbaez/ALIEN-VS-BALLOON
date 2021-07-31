@@ -14,21 +14,20 @@ public class Balloons_Maker : MonoBehaviour
     void Start()
     {
 
+    
+            Blue.Generar();
+   
+            Green.Generar();
 
+            //Blue.Generar();
 
+            //Red.Generar();
 
+            Red.Generar();
 
+            //Green.Generar();
 
-        int N = Random.Range(1, 30);
-
-        Blue.Generar();
-        Red.Generar();
-        Green.Generar();
-        Red.Generar();
-        Red.Generar();
-        Green.Generar();
-        Blue.Generar();
-        Green.Generar();
+            Blue.Generar();
 
     }
 
