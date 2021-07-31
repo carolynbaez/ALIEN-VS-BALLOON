@@ -14,28 +14,35 @@ public class Balloons_Maker : MonoBehaviour
     void Start()
     {
 
-
-
-
-
-
-        int N = Random.Range(1, 30);
-
         Blue.Generar();
         Red.Generar();
         Green.Generar();
+        Blue.Generar();
         Red.Generar();
-        Red.Generar();
-        Green.Generar();
         Blue.Generar();
         Green.Generar();
+        Blue.Generar();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //int N = Random.Range(1,1000);
+
+        //if (N >= 1 && N<=10)
+        //{
+        //    Generar_Red();
+        //}
+        //else if (N >= 11 && N <= 15)
+        //{
+        //    Generar_Blue();
+        //}
+        //else if (N >= 21 && N <= 25)
+        //{
+        //    Generar_Green();
+        //}
+
     }
 
     public void Generar_Red()
